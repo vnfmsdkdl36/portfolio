@@ -1,0 +1,426 @@
+@media screen and (max-width:1280px){
+  #about .content > .wrap1{
+  }
+}
+/* 메세지 */
+@media screen and (max-width:880px){
+  #contact legend{
+    font-size: 0.8em;
+  }
+  #contact .form > div{
+    font-size: 0.7em;
+  }
+  #contact input{
+    left: 160px;
+  }
+  #contact textarea{
+    left: 160px;
+  }
+  #contact button{
+    bottom: 20px;
+  }
+}
+@media screen and (max-width:768px){
+  #intro h1{
+    font-size: 4em;
+  }
+  .nav_container{width: 100%;}
+  .nav_container h2{
+    font-size: 2em;
+    color: #ff887d;
+  }
+  .nav_container header{
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .close_nav{
+    position: absolute;
+    height: 24px; width: 24px;
+    top: 50%; left: 4%;
+    bottom: auto;
+    transform: translateY(-50%);
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  .gnb i{
+    top: 30%; left: 30%;
+    width: 70px; height: 70px;
+    font-size: 5em;
+  }
+  .gnb li{
+    clear: both;
+    height: calc((100vh - 50px)/5);
+  }
+  .gnb em{
+    top: 50%; left: 70%;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  .gnb li:nth-child(1),.gnb li:nth-child(2),.gnb li:nth-child(3){
+    width: 100%;
+  }
+  .gnb li:nth-child(4),.gnb li:nth-child(5){
+    width: 100%;
+  }
+  /*-------------------- about --------------------*/
+  #about .title{
+    line-height: 40px;
+  }
+  #about .title > h1{
+    margin-bottom: 50px;
+  }
+  #about .content{
+    width: 90%;
+    top: 40%;
+  }
+  /* design */
+  #design .title{
+    line-height: 70px;
+  }
+  #design .title > h1{
+    font-size: 3em;
+  }
+  #design .content{
+    width: 90%;
+    margin-top: 80px;
+  }
+  .lb-outerContainer {
+    top: 150px;
+  }
+  /*--------- project ---------*/
+  #project .title > h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  #project .title h2{
+    margin-top: 40px;
+  }
+  #project .content{
+    width: 80%;
+    /* border: 1px solid red; */
+  }
+  #project .content a > img{
+    width: 35%;
+    margin: 4%;
+  }
+  #project .content a:first-child img{
+    margin-left: 11%;
+  }
+  #project .content a:last-child img{
+    margin-left: 33%;
+  }
+  /* contact */
+  #contact legend{
+    font-size: 0.8em;
+  }
+  #contact .form > div{
+    font-size: 0.6em;
+  }
+  #contact label{
+    left: 30px;
+  }
+  #contact input{
+    left: 160px;
+  }
+  #contact textarea{
+    position: absolute;
+    left: 160px;
+    height: 40px;
+  }
+  #contact button{
+    bottom: 8px;
+    font-size: 0.6em;
+    padding: 3px 8px;
+  }
+}
+@media screen and (max-width:680px){
+  /*--------- project ---------*/
+  #project .title{
+    line-height: 50px;
+  }
+  #project .title > h1{
+    margin-bottom: 20px;
+  }
+  #project .title h2{
+    margin-top: 15px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width:570px){
+  #contact legend{
+    font-size: 0.6em;
+  }
+  #contact .form{
+    width: 70%;
+  }
+  #contact .form > div{
+    font-size: 0.5em;
+  }
+  #contact label{
+    left: 40px;
+    top: 8px;
+  }
+  #contact input{
+    left: 150px;
+    top: 2px;
+  }
+  #contact textarea{
+    position: absolute;
+    left: 150px;
+    top: 5px;
+    height: 30px;
+  }
+  #contact button{
+    bottom: 10px;
+    font-size: 0.6em;
+    padding: 3px 8px;
+  }
+}
+@media screen and (max-width:500px){
+  #contact .title{
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+  #contact .infor{
+    line-height: 30px;
+    font-size: 1em;
+  }
+  #contact legend{
+    font-size: 0.8em;
+  }
+  #contact .form{
+    padding: 20% 0;
+  }
+  #contact .form > div{
+    font-size: 0.7em;
+    top: -40px;
+  }
+  #contact label{
+    left: 40px;
+    top: 15px;
+  }
+  #contact input{
+    left: 35px;
+    top: 30px;
+    width:80%;
+  }
+  #contact textarea{
+    left: 35px;
+    top: 50px;
+    width: 80%;
+    height: 40px;
+  }
+  #contact button{
+    bottom: 15px;
+    font-size: 0.6em;
+    padding: 3px 8px;
+  }
+}
+@media screen and (max-width:375px){
+  #intro h1{
+    font-size: 2em;
+  }
+  .nav_container h2{
+    font-size: 1.2em;
+    color: #ff887d;
+  }
+  .nav_container header{
+    position: relative;
+    text-align: center;
+    padding: 17px 0;
+    height: 50px;
+    box-sizing: border-box;
+  }
+  .close_nav{
+    position: absolute;
+    height: 24px; width: 24px;
+    top: 50%; left: 4%;
+    bottom: auto;
+    transform: translateY(-50%);
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  .gnb i{
+    top: 30%; left: 35%;
+    width: 70px; height: 70px;
+    font-size: 3em;
+  }
+  .gnb li{
+    clear: both;
+    height: calc((100vh - 50px)/5);
+  }
+  .gnb em{
+    top: 50%; left: 65%;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  .gnb li:nth-child(1),.gnb li:nth-child(2),.gnb li:nth-child(3){
+    width: 100%;
+  }
+  .gnb li:nth-child(4),.gnb li:nth-child(5){
+    width: 100%;
+  }
+  /*-------------------- about --------------------*/
+  #about .title{
+    line-height: 40px;
+    top: 15%;
+  }
+  #about .title > h1{
+    margin-bottom: 30px;
+  }
+  #about .title > p{
+    font-size: 0.8em;
+  }
+  #about .content{
+    width: 90%;
+    top: 50%;
+  }
+  #about .content > .wrap1{
+    clear: both;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 5%;
+
+  }
+  #about .content > .wrap2{
+    width: 40%;
+  }
+  #about .content > .wrap2 > .notice1 > h1{
+    padding-top: 40px;
+    font-size: 0.8em;
+  }
+  #about .content > .wrap2 > .notice1 img{
+    width: 17%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  #about .content > .wrap2 > .notice2{
+    font-size: 0.7em;
+  }
+  #about .content > .wrap2 > .notice2 > p:first-child{
+    line-height: 15px;
+  }
+  .enter{
+    display: block;
+  }
+  /*--------- project ---------*/
+  #project .title{
+    line-height: 30px;
+    top: 15%;
+  }
+  #project .title > h1{
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+  #project .title h2{
+    margin-top: 12px;
+    font-size: 0.5em;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  #project .title > p{
+    font-size: 0.8em;
+  }
+  #project .content{
+    width: 100%;
+    top: 46%;
+    /* margin-top: 10px; */
+  }
+  #project .content a > img{
+    width: 27.333%;
+    margin: 3%;
+  }
+  #project .content a:first-child img{
+    margin-left: 19%;
+  }
+  #project .content a:last-child img{
+    margin-left: 36%;
+  }
+  /* design */
+  #design .title{
+    font-size: 1.4em;
+    line-height: 30px;
+    top: 15%;
+  }
+  #design .title > h1{
+    font-size: 3em;
+    margin-bottom: 35px;
+  }
+  #design .title > p{
+    font-size: 0.8em;
+  }
+  #design .wrap_1 img{
+    width: 25.333%;
+    margin: 4%;
+    float: left;
+  }
+  #design .wrap_2 img{
+    width: 55%;
+    margin: 4%;
+  }
+  #design .content{
+    margin-top: 40px;
+  }
+  #design .content .wrap_2{
+    padding-top: 95px;
+    padding-left: 95px;
+    box-sizing: border-box;
+  }
+  .lb-outerContainer {
+    top: 150px;
+  }
+  /* contact */
+  #contact .title{
+    line-height: 32px;
+    font-size: 1.4em;
+    top: 15%;
+  }
+  #contact .title > h1{
+    margin-bottom: 10px;
+  }
+  #contact .title > p{
+    font-size: 0.8em;
+  }
+  #contact .infor{
+    line-height: 25px;
+    font-size: 0.7em;
+    top: 32%;
+  }
+  #contact .form{
+    width: 80%;
+    padding: 13% 0;
+    top: 43%;
+  }
+  #contact legend{
+    font-size: 0.6em;
+  }
+  #contact .form > div{
+    font-size: 0.4em;
+    top: -10px;
+  }
+  #contact label{
+    left: 30px;
+    top: 0px;
+  }
+  #contact input{
+    left: 30px;
+    top: 10px;
+    width:80%;
+  }
+  #contact textarea{
+    left: 30px;
+    top: 25px;
+    width: 80%;
+    height: 40px;
+  }
+  #contact button{
+    /* bottom: 15px; */
+    font-size: 0.6em;
+    padding: 1px 6px;
+  }
+}
