@@ -68,7 +68,7 @@ body, html {
    bottom: auto;
    right: auto;
    width: 32px; height: 4px;
-   background-color: black;
+   background-color: white;
    z-index: 99999;
  }
  .nav span::before, .nav span::after{
