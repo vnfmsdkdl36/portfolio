@@ -304,7 +304,7 @@ body, html {
  }
  #intro{
    /* display: block; */
-   background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+   background-image: linear-gradient(to bottom, #feada6 40%, #f5efef 100%);
    background-size: cover;
    overflow: hidden;
  }
